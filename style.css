@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+.cal-head {
+    text-align: center;
+}
+.cal-head > input{
+    height: 100px;
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
+    padding: 2px;
+    letter-spacing: 2px;
+}
+.cal-head #result{
+    width: 335px;
+    padding: 0 5px;
+}
+.cal-temp{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
+    transition: 0.3;
+    font-size: 0;
+}
+.cal-temp:hover{
+    box-shadow: 0 16px 32px 0 rgba(0,0, 0, 0.2);
+}
+.btn{
+    width: 75px;
+    height: 70px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black ;
+    color: white;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: tomato;
+}
+.btn-style{
+    background-color: cadetblue;
+}
